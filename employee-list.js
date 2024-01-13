@@ -1,5 +1,6 @@
 $(function() {
-    const employees = JSON.parse(localStorage.getItem('employees'));
+    // const employees = JSON.parse(localStorage.getItem('employees'));
+    const employees = dataMock;
 
     $('#employee-table').DataTable({
         data: employees,
